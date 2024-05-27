@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejemplo021925597.Ejemplo2"
+             Title="Ejemplo2">
+    <!--<Summary>
+     <Createddate>23/5/2024</createddate>
+     <company>Shelini</company>
+     <lastmodificationdate>23/5/2024</lastmodificationdate>
+     <lastmodificationdescription>
+         Se agregó imágen alusiva al ejemplo
+     </lastmodificationdescription>
+     <lastmodifierautor>Maynor</lastmodifierautor>
+     </Summary>
+     -->
+    <StackLayout Margin="20,35,20,20">
+        <Image Source="button.jpg" WidthRequest="360" HeightRequest="220" />
+        <Button Text="Presioname"
+                TextColor="Green"
+                BackgroundColor="Yellow"
+                BorderColor="Red"
+                BorderWidth="3"
+                CornerRadius="20"
+                HeightRequest="60"
+                WidthRequest="300"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>
